@@ -53,7 +53,8 @@
             this.btnByte.Name = "btnByte";
             this.btnByte.Size = new System.Drawing.Size(161, 82);
             this.btnByte.TabIndex = 0;
-            this.btnByte.Text = "&Byte";
+            this.btnByte.Text = "&Byte - Adds two values together";
+            this.btnByte.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnByte.UseVisualStyleBackColor = false;
             this.btnByte.Click += new System.EventHandler(this.BtnByte_Click);
             // 
@@ -67,8 +68,10 @@
             this.btnShort.Name = "btnShort";
             this.btnShort.Size = new System.Drawing.Size(161, 82);
             this.btnShort.TabIndex = 1;
-            this.btnShort.Text = "&Short";
+            this.btnShort.Text = "&Short - Subtracts two values";
+            this.btnShort.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnShort.UseVisualStyleBackColor = false;
+            this.btnShort.Click += new System.EventHandler(this.BtnShort_Click);
             // 
             // btnInt
             // 
@@ -80,8 +83,10 @@
             this.btnInt.Name = "btnInt";
             this.btnInt.Size = new System.Drawing.Size(161, 82);
             this.btnInt.TabIndex = 4;
-            this.btnInt.Text = "&Int";
+            this.btnInt.Text = "&Int - Modulus of two values";
+            this.btnInt.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnInt.UseVisualStyleBackColor = false;
+            this.btnInt.Click += new System.EventHandler(this.BtnInt_Click);
             // 
             // btnLong
             // 
@@ -93,8 +98,10 @@
             this.btnLong.Name = "btnLong";
             this.btnLong.Size = new System.Drawing.Size(161, 82);
             this.btnLong.TabIndex = 5;
-            this.btnLong.Text = "&Long";
+            this.btnLong.Text = "&Long - Multiplies two values";
+            this.btnLong.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnLong.UseVisualStyleBackColor = false;
+            this.btnLong.Click += new System.EventHandler(this.BtnLong_Click);
             // 
             // btnFloat
             // 
@@ -107,6 +114,7 @@
             this.btnFloat.Size = new System.Drawing.Size(161, 82);
             this.btnFloat.TabIndex = 10;
             this.btnFloat.Text = "&Float";
+            this.btnFloat.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnFloat.UseVisualStyleBackColor = false;
             // 
             // btnDouble
@@ -119,8 +127,10 @@
             this.btnDouble.Name = "btnDouble";
             this.btnDouble.Size = new System.Drawing.Size(161, 82);
             this.btnDouble.TabIndex = 2;
-            this.btnDouble.Text = "&Double";
+            this.btnDouble.Text = "&Double - Modulus of two values";
+            this.btnDouble.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnDouble.UseVisualStyleBackColor = false;
+            this.btnDouble.Click += new System.EventHandler(this.BtnDouble_Click);
             // 
             // btnDecimal
             // 
@@ -132,8 +142,10 @@
             this.btnDecimal.Name = "btnDecimal";
             this.btnDecimal.Size = new System.Drawing.Size(161, 82);
             this.btnDecimal.TabIndex = 6;
-            this.btnDecimal.Text = "D&ecimal";
+            this.btnDecimal.Text = "D&ecimal - Division of two values ";
+            this.btnDecimal.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnDecimal.UseVisualStyleBackColor = false;
+            this.btnDecimal.Click += new System.EventHandler(this.BtnDecimal_Click);
             // 
             // btnPow
             // 
@@ -146,6 +158,7 @@
             this.btnPow.Size = new System.Drawing.Size(161, 82);
             this.btnPow.TabIndex = 7;
             this.btnPow.Text = "&Pow";
+            this.btnPow.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnPow.UseVisualStyleBackColor = false;
             // 
             // btnRound
@@ -159,6 +172,7 @@
             this.btnRound.Size = new System.Drawing.Size(161, 82);
             this.btnRound.TabIndex = 3;
             this.btnRound.Text = "&Round";
+            this.btnRound.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnRound.UseVisualStyleBackColor = false;
             // 
             // btnSqrt
@@ -172,6 +186,7 @@
             this.btnSqrt.Size = new System.Drawing.Size(161, 82);
             this.btnSqrt.TabIndex = 11;
             this.btnSqrt.Text = "S&qrt";
+            this.btnSqrt.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnSqrt.UseVisualStyleBackColor = false;
             // 
             // btnClear
@@ -185,6 +200,7 @@
             this.btnClear.Size = new System.Drawing.Size(161, 82);
             this.btnClear.TabIndex = 9;
             this.btnClear.Text = "&Clear";
+            this.btnClear.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.BtnClear_Click);
             // 
@@ -200,6 +216,7 @@
             this.btnExit.Size = new System.Drawing.Size(161, 82);
             this.btnExit.TabIndex = 8;
             this.btnExit.Text = "E&xit";
+            this.btnExit.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
