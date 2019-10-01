@@ -113,9 +113,10 @@
             this.btnFloat.Name = "btnFloat";
             this.btnFloat.Size = new System.Drawing.Size(161, 82);
             this.btnFloat.TabIndex = 10;
-            this.btnFloat.Text = "&Float";
+            this.btnFloat.Text = "&Float - Adds two values together";
             this.btnFloat.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnFloat.UseVisualStyleBackColor = false;
+            this.btnFloat.Click += new System.EventHandler(this.BtnFloat_Click);
             // 
             // btnDouble
             // 
@@ -157,9 +158,10 @@
             this.btnPow.Name = "btnPow";
             this.btnPow.Size = new System.Drawing.Size(161, 82);
             this.btnPow.TabIndex = 7;
-            this.btnPow.Text = "&Pow";
+            this.btnPow.Text = "&Pow - Finds the power of values given";
             this.btnPow.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnPow.UseVisualStyleBackColor = false;
+            this.btnPow.Click += new System.EventHandler(this.BtnPow_Click);
             // 
             // btnRound
             // 
@@ -171,9 +173,10 @@
             this.btnRound.Name = "btnRound";
             this.btnRound.Size = new System.Drawing.Size(161, 82);
             this.btnRound.TabIndex = 3;
-            this.btnRound.Text = "&Round";
+            this.btnRound.Text = "&Round - Rounds a decimal value ";
             this.btnRound.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnRound.UseVisualStyleBackColor = false;
+            this.btnRound.Click += new System.EventHandler(this.BtnRound_Click);
             // 
             // btnSqrt
             // 
@@ -185,9 +188,10 @@
             this.btnSqrt.Name = "btnSqrt";
             this.btnSqrt.Size = new System.Drawing.Size(161, 82);
             this.btnSqrt.TabIndex = 11;
-            this.btnSqrt.Text = "S&qrt";
+            this.btnSqrt.Text = "S&qrt - Finds the square root of a value";
             this.btnSqrt.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnSqrt.UseVisualStyleBackColor = false;
+            this.btnSqrt.Click += new System.EventHandler(this.BtnSqrt_Click);
             // 
             // btnClear
             // 
