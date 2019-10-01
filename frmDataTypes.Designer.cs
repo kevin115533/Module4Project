@@ -55,6 +55,7 @@
             this.btnByte.TabIndex = 0;
             this.btnByte.Text = "&Byte";
             this.btnByte.UseVisualStyleBackColor = false;
+            this.btnByte.Click += new System.EventHandler(this.BtnByte_Click);
             // 
             // btnShort
             // 

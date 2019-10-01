@@ -9,8 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Module4Project
+
 {
     public partial class frmDataTypes : Form
+
     {
         public frmDataTypes()
         {
@@ -25,6 +27,14 @@ namespace Module4Project
         private void BtnClear_Click(object sender, EventArgs e)
         {
             lblDisplay.Text = " ";
+        }
+
+        private void BtnByte_Click(object sender, EventArgs e)
+        {
+            int op1 = 8;
+            int op2 = 16;
+            int result = op1 + op2;
+            lblDisplay.Text = op1.ToString() + " + " + op2.ToString() + " = " + result.ToString();
         }
     }
 }
