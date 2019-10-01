@@ -62,7 +62,7 @@
             this.btnShort.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnShort.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnShort.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnShort.Location = new System.Drawing.Point(223, 180);
+            this.btnShort.Location = new System.Drawing.Point(221, 180);
             this.btnShort.Name = "btnShort";
             this.btnShort.Size = new System.Drawing.Size(161, 82);
             this.btnShort.TabIndex = 1;
@@ -78,7 +78,7 @@
             this.btnInt.Location = new System.Drawing.Point(22, 268);
             this.btnInt.Name = "btnInt";
             this.btnInt.Size = new System.Drawing.Size(161, 82);
-            this.btnInt.TabIndex = 2;
+            this.btnInt.TabIndex = 4;
             this.btnInt.Text = "&Int";
             this.btnInt.UseVisualStyleBackColor = false;
             // 
@@ -88,10 +88,10 @@
             this.btnLong.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnLong.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLong.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnLong.Location = new System.Drawing.Point(223, 268);
+            this.btnLong.Location = new System.Drawing.Point(221, 268);
             this.btnLong.Name = "btnLong";
             this.btnLong.Size = new System.Drawing.Size(161, 82);
-            this.btnLong.TabIndex = 3;
+            this.btnLong.TabIndex = 5;
             this.btnLong.Text = "&Long";
             this.btnLong.UseVisualStyleBackColor = false;
             // 
@@ -101,10 +101,10 @@
             this.btnFloat.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnFloat.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFloat.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnFloat.Location = new System.Drawing.Point(419, 356);
+            this.btnFloat.Location = new System.Drawing.Point(417, 356);
             this.btnFloat.Name = "btnFloat";
             this.btnFloat.Size = new System.Drawing.Size(161, 82);
-            this.btnFloat.TabIndex = 4;
+            this.btnFloat.TabIndex = 10;
             this.btnFloat.Text = "&Float";
             this.btnFloat.UseVisualStyleBackColor = false;
             // 
@@ -114,10 +114,10 @@
             this.btnDouble.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDouble.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDouble.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnDouble.Location = new System.Drawing.Point(419, 180);
+            this.btnDouble.Location = new System.Drawing.Point(417, 180);
             this.btnDouble.Name = "btnDouble";
             this.btnDouble.Size = new System.Drawing.Size(161, 82);
-            this.btnDouble.TabIndex = 5;
+            this.btnDouble.TabIndex = 2;
             this.btnDouble.Text = "&Double";
             this.btnDouble.UseVisualStyleBackColor = false;
             // 
@@ -127,7 +127,7 @@
             this.btnDecimal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDecimal.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDecimal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnDecimal.Location = new System.Drawing.Point(419, 268);
+            this.btnDecimal.Location = new System.Drawing.Point(417, 268);
             this.btnDecimal.Name = "btnDecimal";
             this.btnDecimal.Size = new System.Drawing.Size(161, 82);
             this.btnDecimal.TabIndex = 6;
@@ -140,7 +140,7 @@
             this.btnPow.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPow.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPow.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnPow.Location = new System.Drawing.Point(599, 268);
+            this.btnPow.Location = new System.Drawing.Point(611, 268);
             this.btnPow.Name = "btnPow";
             this.btnPow.Size = new System.Drawing.Size(161, 82);
             this.btnPow.TabIndex = 7;
@@ -153,10 +153,10 @@
             this.btnRound.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRound.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRound.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnRound.Location = new System.Drawing.Point(599, 180);
+            this.btnRound.Location = new System.Drawing.Point(611, 180);
             this.btnRound.Name = "btnRound";
             this.btnRound.Size = new System.Drawing.Size(161, 82);
-            this.btnRound.TabIndex = 8;
+            this.btnRound.TabIndex = 3;
             this.btnRound.Text = "&Round";
             this.btnRound.UseVisualStyleBackColor = false;
             // 
@@ -166,10 +166,10 @@
             this.btnSqrt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSqrt.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSqrt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnSqrt.Location = new System.Drawing.Point(599, 356);
+            this.btnSqrt.Location = new System.Drawing.Point(611, 356);
             this.btnSqrt.Name = "btnSqrt";
             this.btnSqrt.Size = new System.Drawing.Size(161, 82);
-            this.btnSqrt.TabIndex = 9;
+            this.btnSqrt.TabIndex = 11;
             this.btnSqrt.Text = "S&qrt";
             this.btnSqrt.UseVisualStyleBackColor = false;
             // 
@@ -179,25 +179,27 @@
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnClear.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnClear.Location = new System.Drawing.Point(223, 356);
+            this.btnClear.Location = new System.Drawing.Point(221, 356);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(161, 82);
-            this.btnClear.TabIndex = 10;
+            this.btnClear.TabIndex = 9;
             this.btnClear.Text = "&Clear";
             this.btnClear.UseVisualStyleBackColor = false;
             // 
             // btnExit
             // 
             this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnExit.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnExit.Location = new System.Drawing.Point(22, 356);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(161, 82);
-            this.btnExit.TabIndex = 11;
+            this.btnExit.TabIndex = 8;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
             // lblDisplay
             // 
@@ -205,7 +207,7 @@
             this.lblDisplay.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDisplay.Location = new System.Drawing.Point(22, 9);
             this.lblDisplay.Name = "lblDisplay";
-            this.lblDisplay.Size = new System.Drawing.Size(738, 157);
+            this.lblDisplay.Size = new System.Drawing.Size(750, 157);
             this.lblDisplay.TabIndex = 12;
             this.lblDisplay.Text = "Click a Button";
             this.lblDisplay.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -215,6 +217,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblDisplay);
             this.Controls.Add(this.btnExit);
