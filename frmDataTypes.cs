@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Module4Project
 {
-    public partial class Form1 : Form
+    public partial class frmDataTypes : Form
     {
-        public Form1()
+        public frmDataTypes()
         {
             InitializeComponent();
         }
