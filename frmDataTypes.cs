@@ -22,6 +22,9 @@ namespace Module4Project
             this.Close();
         }
 
-        
+        private void BtnClear_Click(object sender, EventArgs e)
+        {
+            lblDisplay.Text = " ";
+        }
     }
 }
